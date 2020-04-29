@@ -1,0 +1,156 @@
+/***************************************Tag selections**********************************/
+body{
+  margin: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 1.25em;
+}
+div{
+  position: relative;
+}
+h1{
+  margin:0;
+  font-family: 'Courgette', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+
+}
+h2{
+  margin:0;
+  font-family: 'Redressed', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  margin: 30px auto 10px auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+  margin:auto;
+  margin-top: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+hr{
+  border-width: 10px 0 0;
+  border-style: dotted;
+  border-color: #ffffff;
+  width: 8%;
+}
+a{
+  text-decoration: none;
+  color: blue;
+  margin: 50px 30px;
+}
+a:hover{
+  color: white;
+}
+
+
+/**************************************Class Selections*********************************/
+.top_container{
+  background-color: #40bad5;
+  padding: 180px 10px 0;
+}
+.middle_container{
+  background-color: #120136;
+  padding: 30px 10px;
+}
+.bottom_container{
+  padding: 20px 0 50px 0;
+ background-color: #fcbf1e;
+
+}
+.mario{
+  width: 15%;
+  border-radius: 100%;
+}
+.gif1{
+  width: 260px;
+  float: right;
+  margin-left: 5px;
+}
+.gif2{
+  width: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.gif3{
+  width: 320px;
+  float: right;
+}
+.gif4{
+  width: 300px;
+  float: left;
+}
+.ww{
+  color: #ffffff;
+}
+.contacts{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+.titles{
+  color: #024249;
+}
+.subtitles{
+  color: #11999E;
+}
+.skill{
+  margin: 25px 10px;
+  display: inline-block;
+  width: 50%;
+}
+.txt1{
+  text-align: right;
+}
+.txt2{
+  text-align: left;
+}
+.cmb {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #035aa6 5%, #120136 100%);
+	background-color:#fcbf1e;
+	border-radius:6px;
+	border:1px solid #fcbf1e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.cmb:hover {
+	background:linear-gradient(to bottom, #120136 5%, #035aa6 100%);
+	background-color:#120136;
+}
+.cmb:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+/***************************************ID selections***********************************/
+#cloud1{
+  position: absolute;
+  right: 25%;
+  top: 12%;
+}
+#cloud2{
+  position: absolute;
+  left: 20%;
+  top: 55%;
+}
+#mountain{
+  width: 1000px;
+}
